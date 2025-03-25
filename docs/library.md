@@ -6,8 +6,6 @@ title: File Architect Library
 
 File Architect's core is [open-source](https://github.com/filearchitect/filearchitect) and available from [NPM](https://www.npmjs.com/package/@filearchitect/core) as a JavaScript/TypeScript library.
 
-You can find the source code at [github.com/filearchitect](https://github.com/filearchitect/filearchitect)
-
 ## Installation
 
 ```bash

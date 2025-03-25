@@ -22,7 +22,6 @@ npm run docs:preview
 
 This documentation is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
 
-The live documentation can be viewed at: https://YOURUSERNAME.github.io/filearchitect-docs/
 
 ## Contributing
 

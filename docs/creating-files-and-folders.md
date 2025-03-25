@@ -11,7 +11,7 @@ Folders will be nested according to indentation. Spaces and basic special charac
 
 **Lines with extensions will be created as files.**
 
-So `img.png` will be a file, but `img` will be a folder. Files are empty by default. If you want to copy or move a file, you can use file paths explained in the [copy and import](/copy-and-import) section.
+So `img.png` will be a file, but `img` will be a folder. Files are empty by default. If you want to copy or move a file, you can use file paths explained in the [copy and import](/docs/copy-and-import) section.
 
 <div class="structure flex">
     <div class="structure-side">
@@ -23,7 +23,7 @@ So `img.png` will be a file, but `img` will be a folder. Files are empty by defa
 </div>
 
 <script setup>
-import FolderStructurePreview from '.vitepress/theme/components/FolderStructurePreview.vue'
+import FolderStructurePreview from '../.vitepress/theme/components/FolderStructurePreview.vue'
 import yaml from 'js-yaml'
 
 const structure = `<p>Folder 1</p>

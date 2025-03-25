@@ -8,11 +8,11 @@ File Architect allows you to create file and folder structures from simple text 
 
 ## Key Features
 
--   📁 Simple indentation-based syntax for structure design
--   ⚡ Fast and efficient structure creation
--   ↔ Copy or move existing files and folders into your structure
--   📄 Templates for common project structures
--   📎 Easily shareable, reusable, and readable plain text format
+- 📁 Simple indentation-based syntax for structure design
+- ⚡ Fast and efficient structure creation
+- ↔ Copy or move existing files and folders into your structure
+- 📄 Templates for common project structures
+- 📎 Easily shareable, reusable, and readable plain text format
 
 ## How It Works
 
@@ -29,7 +29,7 @@ You can create structures with a simple syntax like this:
 </div>
 
 <script setup>
-    import FolderStructurePreview from '.vitepress/theme/components/FolderStructurePreview.vue'
+    import FolderStructurePreview from '../.vitepress/theme/components/FolderStructurePreview.vue'
 
 import yaml from 'js-yaml'
 const structure = `<p>project-X</p>
@@ -129,6 +129,6 @@ If a string has a path inside of brackets, it will be treated as a full folder c
 
 Now that you're familiar with the basics of File Architect, explore our advanced features and integrations to further enhance your development workflow.
 
--   [Creating files and folders](/creating-files-and-folders)
--   [Copy and import](/copy-and-import)
--   [Templates](/templates)
+- [Creating files and folders](/docs/creating-files-and-folders)
+- [Copy and import](/docs/copy-and-import)
+- [Templates](/docs/templates)

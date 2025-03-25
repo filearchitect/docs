@@ -16,7 +16,7 @@ You can also drag and drop a file or folder into the File Architect text editor 
 :::
 
 <script setup>
-    import FolderStructurePreview from '.vitepress/theme/components/FolderStructurePreview.vue'
+    import FolderStructurePreview from '../.vitepress/theme/components/FolderStructurePreview.vue'
     import yaml from 'js-yaml'
 
     const structure = `<p>2025_projects</p>

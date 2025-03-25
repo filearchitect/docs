@@ -66,6 +66,19 @@ export default {
           { text: "Blank files", link: "/blank-files" },
         ],
       },
+      {
+        text: "Developers",
+        items: [
+          {
+            text: "CLI",
+            link: "/cli",
+          },
+          {
+            text: "Library",
+            link: "/library",
+          },
+        ],
+      },
     ],
     footer: {
       message: "Released under the MIT License.",

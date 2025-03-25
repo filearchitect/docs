@@ -2,7 +2,7 @@ export default {
   title: "File Architect",
   description: "Create file and folder structures from simple text outlines",
   // For GitHub Pages deployment with custom domain
-  base: "/docs/",
+  base: "/",
   // No need to output to a public/docs subfolder anymore
   outDir: "./.vitepress/dist",
   srcDir: "./docs",

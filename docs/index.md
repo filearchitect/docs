@@ -129,6 +129,6 @@ If a string has a path inside of brackets, it will be treated as a full folder c
 
 Now that you're familiar with the basics of File Architect, explore our advanced features and integrations to further enhance your development workflow.
 
-- [Creating files and folders](/docs/creating-files-and-folders)
-- [Copy and import](/docs/copy-and-import)
-- [Templates](/docs/templates)
+- [Creating files and folders](/creating-files-and-folders)
+- [Copy and import](/copy-and-import)
+- [Templates](/templates)

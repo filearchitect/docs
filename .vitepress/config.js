@@ -5,6 +5,7 @@ export default {
   base: "/docs/",
   // No need to output to a public/docs subfolder anymore
   outDir: "./.vitepress/dist",
+  srcDir: "./docs",
   assetsDir: "",
   build: {
     minify: false, // Disable minification
@@ -43,19 +44,19 @@ export default {
     appearance: "light",
     nav: [
       { text: "Home", link: "https://filearchitect.com" },
-      { text: "Docs", link: "/docs/" },
+      { text: "Docs", link: "/" },
     ],
     sidebar: [
       {
         text: "Guide",
         items: [
-          { text: "Getting Started", link: "/docs/" },
+          { text: "Getting Started", link: "/" },
           {
             text: "Creating files and folders",
-            link: "/docs/creating-files-and-folders",
+            link: "/creating-files-and-folders",
           },
-          { text: "Copy and import", link: "/docs/copy-and-import" },
-          { text: "Blank files", link: "/docs/blank-files" },
+          { text: "Copy and import", link: "/copy-and-import" },
+          { text: "Blank files", link: "/blank-files" },
         ],
       },
     ],

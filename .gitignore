@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.vitepress/dist
+.vitepress/cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? 

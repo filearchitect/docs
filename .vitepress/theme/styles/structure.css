@@ -1,0 +1,28 @@
+.structure {
+    line-height: 1.5;
+
+    font-size: 14px;
+}
+
+.structure.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.structure-side {
+    width: 50%;
+}
+
+.dark .structure-full,
+.dark .structure-side {
+    color: white;
+}
+
+.dark .structure {
+    color: #e5e7eb;
+}
+
+.structure-full:first-child {
+    margin-bottom: 20px;
+    width: 100%;
+}

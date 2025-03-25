@@ -43,19 +43,19 @@ export default {
     appearance: "light",
     nav: [
       { text: "Home", link: "https://filearchitect.com" },
-      { text: "Docs", link: "/" },
+      { text: "Docs", link: "/docs/" },
     ],
     sidebar: [
       {
         text: "Guide",
         items: [
-          { text: "Getting Started", link: "/" },
+          { text: "Getting Started", link: "/docs/" },
           {
             text: "Creating files and folders",
-            link: "/creating-files-and-folders",
+            link: "/docs/creating-files-and-folders",
           },
-          { text: "Copy and import", link: "/copy-and-import" },
-          { text: "Blank files", link: "/blank-files" },
+          { text: "Copy and import", link: "/docs/copy-and-import" },
+          { text: "Blank files", link: "/docs/blank-files" },
         ],
       },
     ],

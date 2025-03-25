@@ -1,3 +1,5 @@
+import { copyFileSync } from "fs";
+
 export default {
   title: "File Architect",
   description: "Create file and folder structures from simple text outlines",
@@ -15,6 +17,10 @@ export default {
   theme: {
     light: true,
     dark: false,
+  },
+
+  buildEnd() {
+    copyFileSync("./.vitepress/CNAME", "./.vitepress/dist/CNAME");
   },
   head: [
     [

@@ -22,7 +22,6 @@ npm run docs:preview
 
 This documentation is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
 
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

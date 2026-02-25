@@ -62,9 +62,13 @@ export default {
             text: "Creating files and folders",
             link: "/creating-files-and-folders",
           },
+          { text: "Syntax reference", link: "/syntax-reference" },
           { text: "Copy and import", link: "/copy-and-import" },
           { text: "Repeater", link: "/repeater" },
           { text: "Blank files", link: "/blank-files" },
+          { text: "Templates", link: "/templates" },
+          { text: "Common mistakes", link: "/common-mistakes" },
+          { text: "Recipes", link: "/recipes" },
         ],
       },
       {

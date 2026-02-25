@@ -1,5 +1,5 @@
 ---
-title: File imports
+title: Templates
 editLink: true
 ---
 

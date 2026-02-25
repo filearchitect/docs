@@ -5,7 +5,7 @@ editLink: true
 
 # Copy and import
 
-You can copy and import files and folders from another folder into your project structure. This will copy the contents of the files and folders into your new structure instead of creating new files and folders.
+You can copy and import files and folders from another location into your project structure. This lets you bring in existing content instead of creating only new empty files and folders.
 
 :::tip
 
@@ -55,7 +55,7 @@ const structurePreview = yaml.load(yamlStructure);
 
 ## Folder copy
 
-You can copy a the content of a folder by putting its full path inbetween brackets. This will copy the full contents of the folder with all its files and subfolders into your new structure.
+You can copy the content of a folder by putting its full path between brackets. This copies the full contents of the folder with all its files and subfolders into your new structure.
 
 ```
 [path/to/folder]
@@ -63,7 +63,7 @@ You can copy a the content of a folder by putting its full path inbetween bracke
 
 ## Folder import
 
-You can import a the content of a folder by putting its full path inbetween brackets. This will move the full contents of the folder with all its files and subfolders into your new structure.
+You can import (move) the content of a folder by putting its full path between parentheses. This moves the full contents of the folder with all its files and subfolders into your new structure.
 
 ```
 (path/to/folder)

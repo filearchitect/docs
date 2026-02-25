@@ -103,7 +103,7 @@ const structurePreview = yaml.load(yamlStructure);
 
 ## Syntax
 
-### Indentations
+### Indentation
 
 Tab indentation is used to determine the structure and nesting level. Tabs are visually represented by the character `|` in the editor to help you see the structure, but you only need to use `Tab` when creating your own.
 
@@ -116,7 +116,7 @@ By default, if a line does not have an extension (`.js`, `.png`, etc.) or a path
 If a line has an extension, it will be treated as a file name, and will be created as an empty file.
 
 ::: info Note
-When files are empty, plain text files (eg. `.js`, `.vue`, `.css`, `.html`, etc.) will be behave normally and be editable, but binary data files like `.png`, `.psd`, `.pdf`, might not work or open in your usual software. They can still be useful as placeholders to be replaced.
+When files are empty, plain text files (eg. `.js`, `.vue`, `.css`, `.html`, etc.) behave normally and are editable, but binary data files like `.png`, `.psd`, `.pdf` might not work or open in your usual software. They can still be useful as placeholders to be replaced.
 :::
 
 ### File path copy
@@ -142,6 +142,9 @@ For nested folder repetition examples, see [Repeater](/repeater).
 Now that you're familiar with the basics of File Architect, explore our advanced features and integrations to further enhance your development workflow.
 
 - [Creating files and folders](/creating-files-and-folders)
-- [Repeater](/repeater)
+- [Syntax reference](/syntax-reference)
 - [Copy and import](/copy-and-import)
+- [Repeater](/repeater)
 - [Templates](/templates)
+- [Common mistakes](/common-mistakes)
+- [Recipes](/recipes)

@@ -7,6 +7,8 @@ editLink: true
 
 File Architect makes it simple to create folder structures and files with just text. The key is understanding how files and folders are distinguished.
 
+For the complete syntax table, see [Syntax reference](/syntax-reference).
+
 ## Basic Rules
 
 - **Lines with file extensions** (like `.txt`, `.js`, `.md`) create **files**

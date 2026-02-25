@@ -5,6 +5,10 @@ editLink: true
 
 # Repeater
 
+:::tip Available since
+Available in app `v0.11.19` and `@filearchitect/core` `0.0.22`.
+:::
+
 Use `$*N` in a file or folder name to repeat that line `N` times.
 
 ## Basic repeat

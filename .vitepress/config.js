@@ -62,6 +62,7 @@ export default {
             text: "Creating files and folders",
             link: "/creating-files-and-folders",
           },
+          { text: "Repeater syntax", link: "/repeater" },
           { text: "Copy and import", link: "/copy-and-import" },
           { text: "Blank files", link: "/blank-files" },
         ],

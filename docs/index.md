@@ -129,44 +129,19 @@ If a string has a path inside of brackets, it will be treated as a full folder c
 
 ### Repeater syntax
 
-Use `$*N` in a file or folder name to repeat that line `N` times.
+Use `$*N` to repeat a file or folder line.
 
 ```txt
 filename_$*5.psd
 ```
 
-Creates:
-
-```txt
-filename_1.psd
-filename_2.psd
-filename_3.psd
-filename_4.psd
-filename_5.psd
-```
-
-If the repeated line is a folder, its indented children are repeated inside each generated folder:
-
-```txt
-batch_$*3
-    test
-```
-
-Creates:
-
-```txt
-batch_1
-    test
-batch_2
-    test
-batch_3
-    test
-```
+For nested folder repetition examples, see [Repeater syntax](/repeater).
 
 ## Next Steps
 
 Now that you're familiar with the basics of File Architect, explore our advanced features and integrations to further enhance your development workflow.
 
 - [Creating files and folders](/creating-files-and-folders)
+- [Repeater syntax](/repeater)
 - [Copy and import](/copy-and-import)
 - [Templates](/templates)

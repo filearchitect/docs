@@ -86,6 +86,8 @@ batch_$*3
     test
 ```
 
+See [Repeater syntax](/repeater) for nested and advanced examples.
+
 ## Library Usage
 
 ```typescript

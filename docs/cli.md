@@ -90,6 +90,8 @@ batch_$*3
     test
 ```
 
+See [Repeater syntax](/repeater) for nested and advanced examples.
+
 ### Complete Example
 
 ```txt

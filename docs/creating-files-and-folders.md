@@ -37,39 +37,9 @@ If you want a dot in the name of a folder, you can do so by putting a backslash 
 
 ## Repeater syntax
 
-You can repeat a file or folder line by adding `$*N` to its name.
+Use `$*N` to repeat a file or folder line.
 
-```txt
-filename_$*5.psd
-```
-
-This creates:
-
-```txt
-filename_1.psd
-filename_2.psd
-filename_3.psd
-filename_4.psd
-filename_5.psd
-```
-
-If the repeated line has nested children, the whole block is repeated:
-
-```txt
-batch_$*3
-    test
-```
-
-This creates:
-
-```txt
-batch_1
-    test
-batch_2
-    test
-batch_3
-    test
-```
+For full examples including nested repeated folders, see [Repeater syntax](/repeater).
 
 <script setup>
 import FolderStructurePreview from '../.vitepress/theme/components/FolderStructurePreview.vue'

@@ -55,20 +55,27 @@ export default {
     ],
     sidebar: [
       {
-        text: "Guide",
+        text: "Start Here",
         items: [
           { text: "Getting Started", link: "/" },
-          {
-            text: "Creating files and folders",
-            link: "/creating-files-and-folders",
-          },
           { text: "Syntax reference", link: "/syntax-reference" },
+          { text: "Recipes", link: "/recipes" },
+        ],
+      },
+      {
+        text: "Core Features",
+        items: [
+          { text: "Creating files and folders", link: "/creating-files-and-folders" },
           { text: "Copy and import", link: "/copy-and-import" },
           { text: "Repeater", link: "/repeater" },
           { text: "Blank files", link: "/blank-files" },
           { text: "Templates", link: "/templates" },
+        ],
+      },
+      {
+        text: "Troubleshooting",
+        items: [
           { text: "Common mistakes", link: "/common-mistakes" },
-          { text: "Recipes", link: "/recipes" },
         ],
       },
       {

@@ -51,6 +51,7 @@ await createStructure(structure, "./my-project", {
 | `[souce] > name.ext`  | Copies and renames a file or folder                | `[~/path/to/config.json] > config.json` |
 | `(source)`            | Moves (imports) a file or folder with its contents | `(~/path/to/file.txt)`                  |
 | `(source) > name.ext` | Moves and renames a file or folder                 | `(~/old.txt) > new.txt`                 |
+| `name_$*N.ext`        | Repeats a file/folder line N times                 | `file_$*3.txt`                          |
 
 ### YAML Frontmatter
 
@@ -68,6 +69,21 @@ folderReplacements:
 src
 api
 index.js
+```
+
+### Repeater syntax
+
+Repeat a line with `$*N`:
+
+```txt
+filename_$*5.psd
+```
+
+If you repeat a folder line, all indented children are repeated inside each generated folder:
+
+```txt
+batch_$*3
+    test
 ```
 
 ## Library Usage

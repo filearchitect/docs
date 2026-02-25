@@ -97,6 +97,8 @@ const structurePreview = yaml.load(yamlStructure);
 | Bracketed file path   | Copies existing file     | `[/Users/You/logo.png]`                                                                  |
 | Bracketed folder path | Copies entire folder     | `[path/to/folder]`                                                                       |
 | Parentheses file path | Moves existing file      | `(/Users/You/logo.png)`                                                                  |
+| Repeater              | Repeats a line N times   | `filename_$*5.psd`                                                                       |
+| Nested repeater block | Repeats children too     | `batch_$*3` + indented children                                                          |
 | Tab indentation       | Creates nested structure | parent<div class="border-l-2  border-gray-300" style="padding: 0 0 0 .8rem;">child</div> |
 
 ## Syntax
@@ -124,6 +126,42 @@ If a string has a path separator `/` (eg. `/Users/You/logo.png`), it will be tre
 ### Folder path copy
 
 If a string has a path inside of brackets, it will be treated as a full folder copy path (eg. `[path/to/folder]`). The folder with all of its content will be copied into the current project structure.
+
+### Repeater syntax
+
+Use `$*N` in a file or folder name to repeat that line `N` times.
+
+```txt
+filename_$*5.psd
+```
+
+Creates:
+
+```txt
+filename_1.psd
+filename_2.psd
+filename_3.psd
+filename_4.psd
+filename_5.psd
+```
+
+If the repeated line is a folder, its indented children are repeated inside each generated folder:
+
+```txt
+batch_$*3
+    test
+```
+
+Creates:
+
+```txt
+batch_1
+    test
+batch_2
+    test
+batch_3
+    test
+```
 
 ## Next Steps
 

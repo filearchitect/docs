@@ -39,7 +39,7 @@ If you want a dot in the name of a folder, you can do so by putting a backslash 
 
 Use `$*N` to repeat a file or folder line.
 
-For full examples including nested repeated folders, see [Repeater syntax](/repeater).
+For full examples including nested repeated folders, see [Repeater](/repeater).
 
 <script setup>
 import FolderStructurePreview from '../.vitepress/theme/components/FolderStructurePreview.vue'

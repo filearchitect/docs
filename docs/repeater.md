@@ -1,9 +1,9 @@
 ---
-title: Repeater syntax
+title: Repeater
 editLink: true
 ---
 
-# Repeater syntax
+# Repeater
 
 Use `$*N` in a file or folder name to repeat that line `N` times.
 

@@ -135,13 +135,13 @@ Use `$*N` to repeat a file or folder line.
 filename_$*5.psd
 ```
 
-For nested folder repetition examples, see [Repeater syntax](/repeater).
+For nested folder repetition examples, see [Repeater](/repeater).
 
 ## Next Steps
 
 Now that you're familiar with the basics of File Architect, explore our advanced features and integrations to further enhance your development workflow.
 
 - [Creating files and folders](/creating-files-and-folders)
-- [Repeater syntax](/repeater)
+- [Repeater](/repeater)
 - [Copy and import](/copy-and-import)
 - [Templates](/templates)

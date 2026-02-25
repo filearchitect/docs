@@ -86,7 +86,7 @@ batch_$*3
     test
 ```
 
-See [Repeater syntax](/repeater) for nested and advanced examples.
+See [Repeater](/repeater) for nested and advanced examples.
 
 ## Library Usage
 
